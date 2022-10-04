@@ -1,5 +1,7 @@
+import { Routes, Route } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
 function App() {
-  return <div></div>;
+  return <Container></Container>;
 }
 
 export default App;
