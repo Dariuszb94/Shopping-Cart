@@ -5,7 +5,7 @@ import { Store } from './pages/Store';
 import { About } from './pages/About';
 function App() {
   return (
-    <Container>
+    <Container className='mb-4'>
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/store' element={<Store />}></Route>
