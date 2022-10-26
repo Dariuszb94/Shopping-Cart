@@ -5,7 +5,9 @@ export function Navbar() {
     <NavbarBs className='bg-white shadow-sm mb-3'>
       <Container>
         <Nav>
-          <Nav.Link as={NavLink}></Nav.Link>
+          <Nav.Link to='/' as={NavLink}>
+            Home
+          </Nav.Link>
         </Nav>
       </Container>
     </NavbarBs>
