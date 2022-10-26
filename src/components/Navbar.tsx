@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar as NavbarBs } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar as NavbarBs } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 export function Navbar() {
   return (
@@ -15,6 +15,7 @@ export function Navbar() {
             About
           </Nav.Link>
         </Nav>
+        <Button></Button>
       </Container>
     </NavbarBs>
   );
