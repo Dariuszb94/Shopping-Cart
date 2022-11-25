@@ -29,7 +29,12 @@ export function Navbar() {
           </svg>
           <div
             className='rounded-circle bg-danger d-flex justify-content-center align-items-center'
-            style={{ color: 'white', width: '1.5rem', height: '1.5rem' }}
+            style={{
+              color: 'white',
+              width: '1.5rem',
+              height: '1.5rem',
+              position: 'absolute',
+            }}
           >
             3
           </div>
