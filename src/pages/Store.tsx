@@ -7,7 +7,7 @@ export function Store() {
       <h1>Store</h1>
       <Row>
         {storeItems.map((item) => (
-          <Col></Col>
+          <Col>{JSON.stringify(item)}</Col>
         ))}
       </Row>
     </>
